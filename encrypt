@@ -1,0 +1,11 @@
+#! /usr/bin/env python
+
+def main():
+    import sys
+    from crypto import encrypt
+   
+    if len(sys.argv) > 1:
+        print encrypt(sys.argv[1])
+
+if __name__ == "__main__":
+    main()
